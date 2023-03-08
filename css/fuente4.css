@@ -11,7 +11,7 @@
     height: 100vh;
 }
 .fuente3{
-    font-family:'waltograph', sans-serif;
+    font-family:'waltograph',serif;
     text-align: center;
     font-size: 14em;
     color: whitesmoke;
@@ -21,9 +21,9 @@
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'waltograph';
     font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/waltograph42.otf'); /* IE9 Compat Modes */
-    src: url('../fonts/waltographUI.ttf')
+    font-weight: 400;
+    src: url('../fonts/waltograph42.otf'), /* IE9 Compat Modes */
+         url('../fonts/waltographUI.ttf');
          /*url('../fonts/cinzel-v19-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
 }
     

@@ -11,17 +11,18 @@
     align-items:center;    
 }
 .special-font {
-font-family:'Bebas Neue', sans-serif;
-text-align: center;
-color:rgba(249, 1, 1, 0.9);
-font-size: 20em;
+    font-family:'Bebas Neue', sans-serif;
+    text-align: center;
+    color:rgba(249, 1, 1, 0.9);
+    font-size: 12em;
+    font-weight: 700;
 }
 /* bebas-neue-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Bebas Neue';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     src: url('../fonts/bebas-neue-v9-latin-regular.eot'); /* IE9 Compat Modes */
     src: url('../fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url('../fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
